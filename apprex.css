@@ -59,6 +59,7 @@
 }
 
 .apprex-button {
+     font-size: 16px;
      border: 1px solid rgb(68, 141, 238);
      background-color:  rgb(36, 102, 189);
      border-radius: 3px;
@@ -68,4 +69,13 @@
      padding-top: 5px;
      padding-bottom: 5px;
      display: block;
+     text-decoration: none;
+}
+
+.apprex-button:hover {
+     background-color:  rgb(102, 151, 214);
+}
+
+.apprex-button:active {
+     background-color:  rgb(37, 65, 102);
 }
